@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    color: rgb(0, 0, 0);
+}
+
+.navbar{
+    height: 100px;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+h3{
+    font-size: 16px;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    padding: 5px;
+    font-weight: 500;
+}
+
+h3,.ri-menu-3-line{
+    font-size: 16px;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    padding: 5px;
+    font-weight: 500;
+}
+
+.nav-part2,h1{
+    font-weight: 500;
+    font-size:22px;
+    text-transform: uppercase;
+}
+
+.navbar button{
+     font-size: 14px;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    padding: 5px;
+    font-weight: 500;
+}
+
+#btn1{
+    background-color: #fff;
+}
+
+#btn2{
+    background-color:#FD4F2A;
+    color: white;
+}
+
+.main>h1{
+    /* color: ; */
+    font-size: 150px;
+    font-weight: 600;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    width: 100%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+img{
+    height: 400px;
+    width: 320px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+
+#img1{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+
+#img3{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+
+#img4{
+    transform: translate(-50%,-50%) rotate(-20deg) ;
+}
+
+#img5{
+    transform: translate(-50%,-50%) ;
+}
+
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#btm-right{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#btm-right::before{
+    background: url();
+}
+
+/* Footers icons */
+
+#ss{
+    position: absolute;
+    bottom: 7%;
+    right: 6%;
+    font-size: 17px;
+    display: flex;
+    font-weight: 500;
+    gap: 10px;
+}
